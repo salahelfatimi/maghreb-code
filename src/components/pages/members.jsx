@@ -4,7 +4,7 @@ import { Instagram, Linkedin } from "lucide-react";
 
 export default function Membres(){
     return(
-        <div className=" container flex flex-col gap-6">
+        <div className=" container flex flex-col gap-6 bg-[#303030] z-20">
             <h2 className=" text-3xl lg:text-6xl text-center text-white font-semibold">Our  <span className=" text-[#B3D12F]">Teams</span></h2>
             <div className=" flex items-center  justify-center">
                 <div className="bg-[#1E1E1E] w-fit py-6 px-4 rounded-3xl  items-center gap-6 flex justify-center flex-col">
