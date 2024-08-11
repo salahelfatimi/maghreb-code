@@ -2,7 +2,7 @@ import { Fredoka } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 const fredoka = Fredoka({ subsets: ["hebrew"] });
 
 export const metadata = {
@@ -32,6 +32,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+        <head>
+          <meta property="og:url" content={`https://www.maghrebcode.com`}/>
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_MEASUREMENT_ID}/>
+        </head>
       <body className={`${fredoka.className} bg-[#303030] select-none scrollbar flex flex-col justify-between scrollbar-thumb-[#b3d12f]`}  >
         <Navbar/>
           <main className=" ">{children}</main>
