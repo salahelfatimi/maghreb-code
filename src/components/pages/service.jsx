@@ -39,7 +39,7 @@ export default function Service(){
                                 className=" object-cover w-full   h-[300px] "
                                 alt={ele.title}
                                 />
-                                <div className=" bg-black/60  inset-0 absolute"></div>
+                                <div className=" bg-black/50  inset-0 absolute"></div>
                                 <div className=" absolute inset-0 justify-center flex flex-col items-center gap-6 text-center p-4 ">
                                     <h3 className=" text-[#fff] font-bold text-3xl ">{ele.title}</h3>
                                 </div>

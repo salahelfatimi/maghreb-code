@@ -48,7 +48,7 @@ export default function Navbar() {
                     <div className="container flex flex-row justify-between">
                         <span className="font-semibold text-white animate-pulse uppercase">Digital Time</span>
                         <div className="flex gap-6 justify-between">
-                            <Link href={'https://maps.app.goo.gl/gtaWxSsq7yA2k8fk9'} className="flex gap-2 font-semibold text-white items-center"><MapPin size={25} /><span className="lg:block hidden " >Morocco , Marrakech</span></Link>
+                            <Link href={'https://maps.app.goo.gl/8qYdz4ntwWqVwhpU6'} className="flex gap-2 font-semibold text-white items-center"><MapPin size={25} /><span className="lg:block hidden " >Morocco , Marrakech</span></Link>
                             <Link href={'tel:+212644001490'} className="flex gap-2 font-semibold text-white items-center"><Phone size={25} /><span className="lg:block hidden " >+212 644 001 490</span></Link>
                         </div>
                     </div>
