@@ -6,13 +6,13 @@ import Footer from "@/components/footer/footer";
 const fredoka = Fredoka({ subsets: ["hebrew"] });
 
 export const metadata = {
-  title: "Maghreb Code | Custom Web & Mobile App Solutions",
-  description: "Maghreb Code delivers tailored websites and mobile apps to solve your digital challenges. Transform your business with innovative solutions today!",
+  title: "Maghreb Code | Custom Website Development",
+  description: "Maghreb Code creates high-quality, custom websites with innovative digital solutions to elevate your business. Based in Marrakech, Morocco.",
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`,),
-  keywords: ["custom web development", "mobile app development", "digital solutions", "innovative technology", "business transformation", "tailored web solutions", "web design services", "software development", "business solutions", "app development services", "technology solutions", "web development Morocco", "custom software solutions", "digital transformation services"],
+  keywords: ["custom websites", "web development", "digital solutions", "innovative web design", "business website", "Marrakech web services", "Morocco web development", "branding design", "web marketing", "SEO services", "high-quality websites", "business transformation"],
   openGraph: {
-    title: "Maghreb Code | Custom Web & Mobile App Solutions",
-    description: "Maghreb Code delivers tailored websites and mobile apps to solve your digital challenges. Transform your business with innovative solutions today!",
+    title: "Maghreb Code | Custom Website Development",
+    description: "Maghreb Code creates high-quality, custom websites with innovative digital solutions to elevate your business. Based in Marrakech, Morocco.",
     url:`${process.env.NEXT_PUBLIC_BASE_URL}`,
     siteName: "Maghreb Code",
     images: [
@@ -21,7 +21,7 @@ export const metadata = {
         secureUrl: `/opengraph-image.jpg`,
         width: 1200,
         height: 630,
-        alt: `Maghreb Code | Custom Web & Mobile App Solutions`,
+        alt: `Maghreb Code | Custom Website Development`,
       }
     ],
     type: "website",
