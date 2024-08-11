@@ -41,7 +41,7 @@ export default function Navbar() {
 
     
     return (
-        <div className=" pb-52">
+        <div className=" pb-40">
             <div className="fixed z-30 right-0 left-0">
                 <div className="bg-[#B3D12F] p-4">
                     <div className="container flex flex-row justify-between">
@@ -52,7 +52,7 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-                <div className=" py-4 bg-[#303030]">
+                <div className=" py-4 bg-[#303030] ">
                     <div className="container flex justify-between items-center">
                         <Link href={'/'} className=" flex gap-4 items-center justify-center"><Image src={'/logo.svg'} width={80} height={80} priority alt="Services Reparation" /> <h1 className="flex flex-col font-semibold text-2xl text-white">Maghreb  <strong className="text-[#B3D12F] ">Code</strong></h1></Link>
                         <div className="bg-[#B3D12F] p-1  xl:hidden block ">

@@ -1,15 +1,14 @@
 import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function Contact(){
     return(
-        <div id="contact" className=" flex  py-16 bg-[#B3D12F] items-center justify-center bg-repeat bg-[url('/iconAllService.png')] "
+        <div id="contact" className=" flex  py-16  items-center justify-center bg-cover bg-blend-screen  bg-[url('/bgbuttom.png')] "
           >
-            <div className="container">
-                <div className="  bg-[#1e1e1e] flex-col lg:flex-row w-full gap-16 py-16  flex p-8  justify-between items-center ">
+            <div className="container ">
+                <div className="  bg-[#1e1e1e] shadow-inner   bg-cover   bg-[url('/right.png')]  rounded-xl flex-col lg:flex-row w-full gap-16 py-16  flex p-8  justify-between items-center ">
                     <div className=" lg:w-1/2  font-bold flex flex-col items-center gap-2 text-white">
-                            <span className="text-7xl">we make </span>
-                            <span className="text-[#B3D12F] text-6xl" >digital</span>
-                            <span className="text-7xl">world</span>
+                            <Image src={'/contact/logo.png'} width={400} height={400} />
                     </div>
                     <form className="lg:w-1/2 flex flex-col w-full gap-4">
                             <input type="text" name="fullName" id="fullName" placeholder=" full name" className=" placeholder:font-semibold capitalize placeholder:text-white text-white px-4 h-14 rounded   border-[#B3D12F] border-2 bg-[#303030]" />
