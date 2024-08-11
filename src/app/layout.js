@@ -9,6 +9,10 @@ export const metadata = {
   title: "Maghreb Code | Custom Website Development",
   description: "Maghreb Code creates high-quality, custom websites with innovative digital solutions to elevate your business. Based in Marrakech, Morocco.",
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`,),
+  robots: {
+    index: true,
+    follow: true,
+  },
   keywords: ["custom websites", "web development", "digital solutions", "innovative web design", "business website", "Marrakech web services", "Morocco web development", "branding design", "web marketing", "SEO services", "high-quality websites", "business transformation"],
   openGraph: {
     title: "Maghreb Code | Custom Website Development",
