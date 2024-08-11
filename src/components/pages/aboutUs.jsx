@@ -17,7 +17,8 @@ export default function AboutUs(){
                 alt="Maghreb Code"/>
                 <div className=" flex gap-4 flex-col  ">
                     <h2 className="bg-[#fff] text-[#B3D12F] text-center  p-2 font-bold text-3xl lg:text-7xl  capitalize">About Us</h2>
-                    <p className="  text-white  lg:text-2xl text-xl  text-center lg:text-left    ">At Maghreb Code, we&apos;re a dedicated team of digital experts with a rich background in web development, logo creation, and web marketing. As a study group at OFPPT, we have honed our skills through various freelance projects, delivering high-quality websites and innovative solutions. In 2024, we established Maghreb Digital Company to expand our reach and continue offering exceptional digital services. Our expertise in crafting custom websites, developing mobile applications, and solving complex problems ensures your business gets the best digital solutions tailored to your needs.</p>
+                    <p className="  text-white  lg:text-2xl text-xl  text-center lg:text-left    ">At Maghreb Code, we're a dedicated team of digital experts based in Marrakech, Morocco. Founded by a young and passionate OFPPT student, our journey began with a rich background in web development, logo creation, and web marketing. As a study group at OFPPT, we honed our skills through various freelance projects, consistently delivering high-quality websites and innovative solutions.</p>
+                    <p className="  bg-white  text-[#B3D12F] lg:text-2xl text-xl  text-center lg:text-left   p-2 ">  In 2024, we established Maghreb Code Company to expand our reach and continue offering exceptional digital services.</p>
                 </div>
 
         

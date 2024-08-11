@@ -11,6 +11,7 @@ export default function Navbar() {
     const itemNav = useMemo(() => [
         { title: 'Home', href: '#home' },
         { title: 'About US', href: '#aboutUs' },
+        { title: 'Our Services', href: '#Services' },
         { title: 'Our Project', href: '#Our-Project' },
         { title: 'Contact', href: '#contact' }
     ], []);
@@ -68,9 +69,9 @@ export default function Navbar() {
                             </ul>
                         </div>
                        
-                        <div className={`fixed z-30 inset-0 flex items-center justify-center bg-[#303030] duration-700 transition ${open == false ? "translate-x-0" : "translate-x-full"}`}>
-                            <button onClick={() => { setOpen(true) }} className="absolute top-4 right-4 text-red-600 ">
-                                <X size={40} />
+                        <div className={`fixed z-30 inset-0 bg-cover bg-top  bg-[url('/bgtop.png')]  flex items-center justify-center bg-[#303030] duration-700 transition ${open == false ? "translate-x-0" : "translate-x-full"}`}>
+                            <button onClick={() => { setOpen(true) }} className="absolute top-4 right-4 bg-[#B3D12F] rounded-full p-2 text-white">
+                                <X size={40}  />
                             </button>
                             <div className="flex flex-col items-center gap-12 text-2xl font-bold">
                                 {itemNav.map((ele, index) => (

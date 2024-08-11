@@ -9,7 +9,7 @@ export default function Project(){
 
     ]
     return(
-        <div id="Our-Project" className="  flex flex-col gap-16 py-14  bg-cover bg-blend-screen  bg-[url('/right.png')]">
+        <div id="Our-Project" className="  flex flex-col gap-16 py-14  bg-cover bg-right  bg-[url('/right.png')]">
             <h2 className="  text-3xl lg:text-6xl text-center text-white font-semibold">Some Things We&apos;ve <span className=" text-[#B3D12F]">Built</span></h2>
             <div className="container flex flex-col gap-14">
             {
