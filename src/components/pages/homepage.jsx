@@ -8,7 +8,7 @@ export default function Homepage(){
     };
     return(
        
-        <div  id="home" className="flex flex-col  pt-24  gap-14 items-center  h-screen    bg-cover bg-blend-screen  bg-[url('/bgtop.png')]  ">
+        <div  id="home" className="flex flex-col  pt-24  gap-14 items-center  h-screen    bg-cover bg-top  bg-[url('/bgtop.png')]  ">
            
                 <div className="flex flex-col justify-center items-center  gap-6 ">
                     <h2 className=" text-center font-bold text-2xl lg:text-5xl text-white flex flex-col gap-4  items-center">Elevate Your Business with Maghreb Code <span className=" bg-[#B3D12F] py-2 px-4 w-fit">Web & Mobile Solutions</span>    </h2>

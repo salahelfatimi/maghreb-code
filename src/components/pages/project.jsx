@@ -11,9 +11,10 @@ export default function Project(){
     return(
         <div id="Our-Project" className="  flex flex-col gap-16 py-14  bg-cover bg-blend-screen  bg-[url('/right.png')]">
             <h2 className="  text-3xl lg:text-6xl text-center text-white font-semibold">Some Things We&apos;ve <span className=" text-[#B3D12F]">Built</span></h2>
+            <div className="container flex flex-col gap-14">
             {
                 project.map((ele,index)=>(
-                    <div key={index} className="container flex flex-col-reverse even:lg:flex-row odd:lg:flex-row-reverse items-center justify-between gap-6 bg-[#1E1E1E] rounded p-4">
+                    <div key={index} className=" flex flex-col-reverse even:lg:flex-row odd:lg:flex-row-reverse items-center justify-between gap-6 bg-[#1E1E1E] rounded p-4">
                         <div className=" lg:w-1/2 flex flex-col items-center gap-8 ">
                             <h3 className=" text-2xl lg:text-4xl text-white font-semibold bg-[#B3D12F]  w-fit p-3">{ele.name}</h3>
                             <div className="text-white font-medium text-center lg:text-xl w-fit p-2 ">
@@ -36,7 +37,7 @@ export default function Project(){
                     </div>
                 ))
             }
-           
+           </div>
         
         </div>
     )
