@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Project(){
     const project=[
-        {id:2,link:'https://ecotech-depannage-website.vercel.app',code:['Nextjs','TailwindCSS','Figma'],name:'Ecotech Depannage',description:"EcoTech Dépannage, your expert in emergency repairs in Sarreguemines, France. We offer services from glaziers, locksmiths, plumbers, and electricians, available 24/7 for urgent interventions. Contact us at +33 7 71 71 05 13 for quick service.",image:'/project/ecotech-depannage.png',height:909,width:1920},
+        {id:2,link:'https://ecotech-depannage.vercel.app/',code:['Nextjs','TailwindCSS','Figma'],name:'Ecotech Depannage',description:"EcoTech Dépannage, your expert in emergency repairs in Sarreguemines, France. We offer services from glaziers, locksmiths, plumbers, and electricians, available 24/7 for urgent interventions. Contact us at +33 7 71 71 05 13 for quick service.",image:'/project/ecotech-depannage.png',height:909,width:1920},
         {id:1,link:'https://explorem.net/en',code:['Nextjs','TailwindCSS','Figma','Prisma','MongoDB'],name:'Explorem SARL',description:'Explorem is a team of experts providing services in human resources, language training, nursing formation, and coaching on recruitment, management, and training, both in Morocco and abroad.',image:'/project/explorem.png',height:909,width:1920}
 
     ]
